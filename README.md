@@ -1,11 +1,11 @@
-# Cypress Capstone Project — Page Object Model (POM)
+# Cypress-E2E-Automation-Demoblaze & Saucedemo — Page Object Model (POM)
 
 An end-to-end test automation suite built with **Cypress**, using the **Page Object Model (POM)** design pattern to test two live demo e-commerce sites:
 
 - [DemoBlaze](https://www.demoblaze.com/) — an online electronics store demo
 - [Sauce Demo](https://www.saucedemo.com/) — a mock inventory/checkout web app used for QA practice
 
-This project was built as a capstone to demonstrate real-world automated testing skills: page object architecture, reusable components, fixture-driven data, and coverage of core user flows (login, signup, cart, checkout, navigation).
+This project was built to demonstrate real-world automated testing skills: page object architecture, reusable components, fixture-driven data, and coverage of core user flows (login, signup, cart, checkout, navigation).
 
 ---
 
