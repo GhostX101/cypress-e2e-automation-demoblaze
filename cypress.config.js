@@ -1,5 +1,5 @@
 const { defineConfig } = require("cypress");
-import { allureCypress } from "allure-cypress/reporter";
+const { allureCypress } = require("allure-cypress/reporter");
 
 
 module.exports = defineConfig({
