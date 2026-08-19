@@ -1,17 +1,21 @@
 {
   "name": "sauace-demo-testing",
   "version": "1.0.0",
-  "description": "",
-  "main": "cypress.config.js",
+  "description": "Cypress automation testing project",
+  "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --headless",
-    "runtests": "npm run test --"
+    "test": "npx cypress run",
+    "test:open": "cypress open"
   },
-  "keywords": [],
-  "author": "Ghost",
+  "keywords": [
+    "cypress",
+    "automation",
+    "testing"
+  ],
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "allure-cypress": "^3.4.5",
-    "cypress": "^15.7.1"
-    }
+    "cypress": "^13.0.0"
+  }
 }
