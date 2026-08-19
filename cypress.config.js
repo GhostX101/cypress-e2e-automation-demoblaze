@@ -1,20 +1,21 @@
-const { defineConfig } = require('cypress')
-    module.exports = defineConfig({
+const { defineConfig } = require("cypress");
+import { allureCypress } from "allure-cypress/reporter";
+
+
+module.exports = defineConfig({
   e2e: {
-      WatchForFileChanges: true,
-      setupNodeEvents(on, config) {
-      // implement node event listeners here
+    watchForFileChanges: true,
+    setupNodeEvents(on, config) {
+      allureCypress(on, config, {
+        resultsDir: "allure-results",
+      });
+
+      return config;
     },
   },
 
-  reporter: 'mochawesome',
+  reporter: "allure",
   reporterOptions: {
-    reportDir: 'cypress/results',
-    overwrite: false,
-    html: false,
-    json: true,
+    resultsDir: "allure-results",
   },
-})
-
-    
-  
+});

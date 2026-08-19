@@ -51,4 +51,6 @@ productList(){
        //verify the place order button is visible 
        cy.get('.btn.btn-success').should('be.visible').click()
 }
+
+
 }

@@ -2,7 +2,7 @@ export default class Footer{
 
     Verifyfooter(){
 
-cy.get('.m-0.text-center.text-white').should('be.visible')
+    cy.get('.m-0.text-center.text-white').should('be.visible')
   cy.contains('Copyright © Product Store')
 
   cy.get('#footc').should('be.visible')
@@ -13,4 +13,5 @@ cy.get('.m-0.text-center.text-white').should('be.visible')
   cy.contains('Phone: +440 123456').should('be.visible')
   cy.contains('Email: demo@blazemeter.com').should('be.visible')
     }
+    
 }
