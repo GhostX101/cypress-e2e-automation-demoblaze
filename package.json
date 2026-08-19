@@ -15,7 +15,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "allure-cypress": "^3.4.5",
     "cypress": "^13.0.0"
   }
 }

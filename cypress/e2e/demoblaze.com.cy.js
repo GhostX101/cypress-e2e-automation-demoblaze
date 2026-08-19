@@ -1,4 +1,3 @@
-import "@shelex/cypress-allure-plugin";
 import cartPage from "../../page-objects/PagesDemoblaze/cartPage"
 import loginPage2 from "../../page-objects/PagesDemoblaze/loginPage2";
 import NavBar from "../../page-objects/PagesDemoblaze/NavBar";
